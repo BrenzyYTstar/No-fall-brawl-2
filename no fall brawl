@@ -1,0 +1,11 @@
+game:GetService("Players").LocalPlayer.Character.flailing:Destroy()
+
+game:GetService("Players").LocalPlayer.Character.blocking:Destroy()
+
+auto hut
+
+while wait() do
+   for i = 1,15 do
+game:GetService("ReplicatedStorage").remotes.attack:FireServer()
+end
+end
